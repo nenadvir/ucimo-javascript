@@ -1,5 +1,3 @@
----
----
 ![js](/images/kursevi/js-logo.png)
 
 ## Učimo Javaskript:
