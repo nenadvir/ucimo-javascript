@@ -1,5 +1,5 @@
 const covek = {
-  ime: "Azra",
+  ime: 'Azra',
   visina: 175
 }
 
