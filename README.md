@@ -11,5 +11,8 @@ Javaskript fajlove možemo pokretati:
 Dodavanje elementa u DOM: 
 https://jsfiddle.net/nzprhrbt/
 
-Kocka prati miša:
+JS događaji (kocka prati miša):
 https://jsfiddle.net/mudroljub/du274n9z/
+
+Email validacija:
+https://jsfiddle.net/mudroljub/h70xtpco/
