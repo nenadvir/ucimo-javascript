@@ -9,7 +9,7 @@ Javaskript fajlove možemo pokretati:
 * putem node.js komandne linije
 
 Dodavanje elementa u DOM: 
-https://jsfiddle.net/nzprhrbt/
+https://jsfiddle.net/mudroljub/rhLggx3t/
 
 JS događaji (kocka prati miša):
 https://jsfiddle.net/mudroljub/du274n9z/
