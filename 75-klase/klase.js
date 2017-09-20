@@ -12,13 +12,13 @@ class Korisnik {
   }
 }
 
-// instance su novi objekti napravljeni na osnovu kalupa
-
-const petar = new Korisnik("Petar", "Petrovic", "180")
-petar.hodaj = function () {
-  console.log('Hodam')
-}
-
+// instance su novi objekti napravljeni na osnovu klase
 const ana = new Korisnik("Ana", "Devic", "178")
 const dordje = new Korisnik("Dordje", "Devic", "188")
 const marija = new Korisnik("Marija", "Dordjevic", "160")
+const petar = new Korisnik("Petar", "Petrovic", "180")
+
+// dodajemo metodu instanci
+petar.hodaj = function () {
+  console.log('Hodam')
+}

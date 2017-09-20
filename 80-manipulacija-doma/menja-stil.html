@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Menja stil</title>
+	<meta charset="UTF-8">
+</head>
+
+<body id="telo">
+	<h1 id="naslov">Sve se menja</h1>
+
+	<p id="prvi">JavaScript može promeniti stil cele stranice.</p>
+
+	<p id="drugi">I svakog pasusa ponaosob.</p>
+
+	<button type="button" onclick="menjajStil()">Menjaj ceo stil!</button>
+
+	<h1 id="naslov2">Samo naslov</h1>
+
+	<button type="button" onclick="document.getElementById('naslov2').style.color='red'">
+		Menjaj naslov!
+	</button>
+
+	<script>
+		function menjajStil() {
+			document.getElementById("prvi").style.color = "#ff0000"
+			document.getElementById("drugi").style.color = "#ffff00"
+			document.getElementById("naslov").style.color = "#ff00ff"
+			document.getElementById("telo").style.backgroundColor = "#000000"
+		}
+	</script>
+
+</body>
+
+</html>

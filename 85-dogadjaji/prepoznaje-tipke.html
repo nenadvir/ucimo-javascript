@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="sr-RS">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Prepoznaje tipke</title>
+</head>
+
+<body>
+
+  <p>Kod trenutne tipke je: <span id="izlaz"></span></p>
+
+  <script>
+    const izlaz = document.getElementById("izlaz")
+    document.onkeydown = e => izlaz.innerHTML = e.keyCode
+    document.onkeyup = e => izlaz.innerHTML = ""
+
+  </script>
+</body>
+
+</html>
