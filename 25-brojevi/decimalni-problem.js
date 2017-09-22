@@ -3,3 +3,5 @@ console.log(rezultat)
 
 // pomaze zaokruzivanje
 console.log(rezultat.toFixed(2))
+
+// 10 / 3
