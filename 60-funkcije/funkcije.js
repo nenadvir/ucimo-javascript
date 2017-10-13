@@ -6,6 +6,8 @@ function pozdrav(ime) {
   return 'Zdravo korisniče ' + ime
 }
 
-// const saberi = (x, y) => x + y
+// skracene funkcije
 
-// const pozdrav = ime => 'Zdravo korisniče ' + ime
+const saberi2 = (x, y) => x + y
+
+const pozdrav2 = ime => 'Zdravo korisniče ' + ime
