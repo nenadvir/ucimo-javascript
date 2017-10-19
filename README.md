@@ -1,6 +1,6 @@
 # Učimo Javaskript
 
-Materijali za kurs [Učimo Javaskript](http://skolakoda.org/kursevi/ucimo-javascript) u organizaciji Škole koda.
+Materijali za kurs [Učimo Javaskript](http://skolakoda.org/kursevi/ucimo-javascript).
 
 ## Pokretanje fajlova
 
