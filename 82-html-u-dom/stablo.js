@@ -1,4 +1,4 @@
-const document = {
+const html = {
   head: {
     01: {
       tip: "meta",
@@ -43,3 +43,15 @@ const document = {
     }
   }
 }
+
+function izlistaj(obj) {
+  for (const kljuc in obj) {
+    if (typeof obj[kljuc] == "object") {
+      izlistaj(obj[kljuc])
+    } else {
+      if (kljuc == 'tip') console.log(obj[kljuc])
+    }
+  }
+}
+
+izlistaj(html)
