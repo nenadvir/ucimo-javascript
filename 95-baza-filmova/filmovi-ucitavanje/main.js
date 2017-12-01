@@ -1,7 +1,7 @@
 const okvir = document.querySelector('#okvir')
 const http = new XMLHttpRequest()
 
-http.open("GET", "https://baza-filmova.herokuapp.com/filmovi/")
+http.open("GET", "https://baza-podataka.herokuapp.com/filmovi/")
 http.send()
 http.onload = () => init(http.responseText)
 
