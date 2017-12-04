@@ -2,7 +2,7 @@
 
 // par ključeva i vrednosti
 const recnik = {
-  nebo: "bal bla bal asdfasdf lk sdfsa",
+  nebo: "Nebo je plavo",
   zemlja: "Zemlja je okrugla, ili možda ravna.",
   "veliko sunce": "Sunce je zaista veliko.",
   ђак: "Onaj koji ide u školu",

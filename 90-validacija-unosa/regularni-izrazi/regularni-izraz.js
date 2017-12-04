@@ -3,6 +3,5 @@ const obrazac = /[0-9]{4}/g
 
 // samo nalazi
 console.log(tekst.match(obrazac))
-
 // nalazi i menja
 console.log(tekst.replace(obrazac, 'xxxxx'))

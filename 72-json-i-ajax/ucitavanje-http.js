@@ -1,4 +1,4 @@
-var http = new XMLHttpRequest()
+const http = new XMLHttpRequest()
 
 http.open("GET", "./telefonski-imenik.json")
 http.send()
