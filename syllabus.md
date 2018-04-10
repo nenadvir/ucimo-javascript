@@ -30,7 +30,6 @@
 ### Data types
 
 - [Beleženje podataka](/kako-racunar-belezi-podatke) i [binarni zapis](/binarni-brojevi)
-- [Tipovi podataka u programskim jezicima](/tipovi-podataka)
 - [Tipovi podataka u Javaskriptu](https://youtu.be/T0VLAWelSUA)
   - Logičke vrednosti (`true` i `false`)
   - Brojevi
