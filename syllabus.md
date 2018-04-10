@@ -41,21 +41,18 @@
 - `typeof` operator
 - Type conversion
 
-### Numbers and arithmetics
+### Numbers and arithmetic
 
-- Osnovne računske operacije (`+`, `-`, `*`, `/`)
-- Upotreba modulo operatora (`%`)
-- Nepreciznosti u računanju
-  - decimalni problem
-  - oktalni problem
-- Napredne `Math` metode
-- Konverzije
-  - Promena strune u broj (`Number()`, `parseInt()`)
-  - Čitanje binarnih (`parseInt('10100', 2)`) i heksadecimalnih brojeva (`parseInt('ffaadd', 16)`)
-- `prompt()` funkcija za korisnički unos
-- Project: izračunaj koliko moraš učiti ovim tempom da bi postao ekspert
-- Project: izračunaj koliko dana si živ
-- Project: postavi model poslovanja
+- Basic arithmetic operations (`+`, `-`, `*`, `/`)
+- Modulo operator (`%`)
+- Floating-point arithmetic errors
+- Advance `Math` methods
+- Conversions
+  - String to number (`Number()`, `parseInt()`)
+  - Translate binary (`parseInt('10100', 2)`) and hexadecimal (`parseInt('ffaadd', 16)`)
+- `prompt()` function for user input
+- Project: How long I have to learn to become an expert
+- Project: Setup your business model
 
 ### Working with text
 
