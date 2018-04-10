@@ -86,12 +86,12 @@
 
 ### Functions
 
-- [Šta su funkcije?](https://youtu.be/MO9WKt7CRI8)
-- Različiti načini pisanja funkcije
-- Ulazni parametri
-  - [Podrazumevani parametri](https://youtu.be/ElXcmfi0-Lg)
-- Vraćanje rezultata funkcije
-- Pozivanje funkcije
+- What is a function?
+- Different ways of defining functions
+- Input parameters
+  - Default parameters
+- `return` statement
+- Function invocation
   - Prosleđivanje rezultata funkcije
 - Opseg varijabli unutar funkcije
 - Čiste i nečiste funkcije
