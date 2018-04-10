@@ -15,7 +15,7 @@
   - Install plugins (Emmet, linter, beautifier)
 - Hello World program
   - Run `.js` file in browser
-  - Run `.js` via command line
+  - Run `.js` file via command line
 
 ### Promenljive i nepromenljive
 
