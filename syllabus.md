@@ -56,25 +56,24 @@
 
 ### Working with text
 
-- Navodnici (`""`) i polunavodnici (`''`)
-- Višelinijske strune (\`\`)
-- Osnovne metode: `length`, `indexOf()`, `toLowerCase()`, `toUpperCase()`, `trim()`, `substr()`
-- Project: promeni veličinu slova
-- Project: nađi svoje ime u tekstu
-- Project: napiši cenzor funkciju koja menja ružne reči zvezdicama
+- Double quotes vs single quotes
+- Basic string methods: `length`, `indexOf()`, `toLowerCase()`, `toUpperCase()`, `trim()`, `substr()`
+- Multiline strings
+- Project: Find specific word in a text and change case
+- Project: Write word-censoring function which replace all profanities with ***
 
 ### Programming logic
 
-- [Logički tok programa](/programska-logika)
-- [Operatori poređenja](/programska-logika#operatori-poređenja-manje-veće-jednako) (veće, manje, jednako, nejednako)
-- [Logički operatori](/programska-logika#logički-operatori-i-ili-ne) (i, ili, ne)
-- [Uslovi](/programska-logika#uslovi)
-  - ako (`if`)
-  - ako inače (`if else`)
-  - inače ako (`else if`)
-  - skretnica (`switch`)
-- Project: napravi priču sa više završetaka na osnovu promenljivih
-- Project: napravi program za otkrivanje većeg od dva uneta broja
+- Intro to programming logic
+- Comparison operators
+- Logical operators (and, or, no)
+- Conditional statements
+  - `if`
+  - `if-else`
+  - `else if`
+  - `switch`
+- Project: Create a text adventure
+- Project: Create a program to choose greater of two input numbers
 
 ### Loops and iteration
 
