@@ -20,27 +20,26 @@
 
 ### Variables and constants
 
-- [Šta su varijable?](/c-varijable)
-- [Promenljive i nepromenljive u Javaskriptu](/promenljive-i-nepromenljive-u-javaskriptu)
-- Identifikatori i pravila imenovanja
-- Dodela vrednosti (`=`)
-- [Opseg važenja](/promenljive-i-nepromenljive-u-javaskriptu#opseg-važenja)
-- [Menjanje nepromenljivih u Javaskriptu](https://youtu.be/iQ62GxboWgY)
+- What is a variable?
+- Variables vs. constants in Javascript
+- Identifiers and naming conventions
+- Assigning values to variables (`=`)
+- Variable scope (global and local)
+- Changing constant objects in Javascript
 
 ### Data types
 
-- [Beleženje podataka](/kako-racunar-belezi-podatke) i [binarni zapis](/binarni-brojevi)
-- [Tipovi podataka u Javaskriptu](https://youtu.be/T0VLAWelSUA)
-  - Logičke vrednosti (`true` i `false`)
-  - Brojevi
-  - Strune (tekst)
-  - Nizovi
-  - Objekti
-  - Nepostojeće vrednosti (`null` i `undefined`)
-- Prosti i složeni tipovi
-- Provera tipa podatka (`typeof`)
-- Promena tipa podatka
-- [Opasnost labavih tipova](/opasnost-labavih-tipova)
+- Intro to computer data and binary numbers
+- Data types in Javascript
+  - Boolean (`true` i `false`)
+  - Number
+  - String (text)
+  - Array
+  - Object
+  - Non-existing values (`null` i `undefined`)
+- Primitive data vs. data structures
+- `typeof` operator
+- Type conversion
 
 ### Numbers and arithmetics
 
