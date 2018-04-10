@@ -92,12 +92,11 @@
   - Default parameters
 - `return` statement
 - Function invocation
-  - Prosleđivanje rezultata funkcije
-- Opseg varijabli unutar funkcije
-- Čiste i nečiste funkcije
-- Streličaste funkcije
-- Anonimne funkcije
-- Project: napravi čiste funkcije za osnovne računske operacije
+  - Assign return value to a variable
+- Pure vs. impure functions
+- Arrow functions
+- Anonymous functions
+- Project: Create pure functions for basic arithmetic
 
 ### Working with arrays
 
