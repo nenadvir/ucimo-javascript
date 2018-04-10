@@ -126,10 +126,12 @@
 - Basic methods: `JSON.parse()`, `JSON.stringify()`
 - Project: Create an adress book in JSON file
 
-### Classes and inheritance
+### Object-oriented programming
 
-- [Objektno orjentisana arhitektura](/objektno-orijentisano-programiranje)
-- `constructor`, `super` i `this`
+- Classes and inheritance
+  - Properties and methods
+  - `constructor`, `super` and `this`
+- Instantiate `new` objects
 - Project: napravi likove za igru (klasa Junak i naslednici Vilenjak i Ork)
 - Project: napravi karton pacijenata (ili bazu filmova) sa pretragom
 
