@@ -73,7 +73,7 @@
   - `else if`
   - `switch`
 - Project: Create a text adventure
-- Project: Create a program to choose greater of two input numbers
+- Project: Create a program to choose greater from two input numbers
 
 ### Loops and iteration
 
