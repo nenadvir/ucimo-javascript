@@ -1,5 +1,6 @@
 ## Learn Javascript
-# Introduction to programming
+
+# Module I: Introduction to programming
 
 ### Intro
 
@@ -17,7 +18,7 @@
   - Run `.js` file in browser
   - Run `.js` file via command line
 
-### Promenljive i nepromenljive
+### Variables and constants
 
 - [Šta su varijable?](/c-varijable)
 - [Promenljive i nepromenljive u Javaskriptu](/promenljive-i-nepromenljive-u-javaskriptu)
@@ -26,7 +27,7 @@
 - [Opseg važenja](/promenljive-i-nepromenljive-u-javaskriptu#opseg-važenja)
 - [Menjanje nepromenljivih u Javaskriptu](https://youtu.be/iQ62GxboWgY)
 
-### Tipovi podataka
+### Data types
 
 - [Beleženje podataka](/kako-racunar-belezi-podatke) i [binarni zapis](/binarni-brojevi)
 - [Tipovi podataka u programskim jezicima](/tipovi-podataka)
@@ -42,7 +43,7 @@
 - Promena tipa podatka
 - [Opasnost labavih tipova](/opasnost-labavih-tipova)
 
-### Brojevi i računanje
+### Numbers and arithmetics
 
 - Osnovne računske operacije (`+`, `-`, `*`, `/`)
 - Upotreba modulo operatora (`%`)
@@ -58,7 +59,7 @@
 - Vežba: izračunaj koliko dana si živ
 - Vežba: postavi model poslovanja
 
-### Rad sa tekstom
+### Text editing
 
 - Navodnici (`""`) i polunavodnici (`''`)
 - Višelinijske strune (\`\`)
@@ -67,7 +68,7 @@
 - Vežba: nađi svoje ime u tekstu
 - Vežba: napiši cenzor funkciju koja menja ružne reči zvezdicama
 
-### Uslovi i grananje
+### Programming logic
 
 - [Logički tok programa](/programska-logika)
 - [Operatori poređenja](/programska-logika#operatori-poređenja-manje-veće-jednako) (veće, manje, jednako, nejednako)
@@ -80,7 +81,7 @@
 - Vežba: napravi priču sa više završetaka na osnovu promenljivih
 - Vežba: napravi program za otkrivanje većeg od dva uneta broja
 
-### Petlje i ponavljanje
+### Loops and iteration
 
 - [Petlje u jeziku C](/c-petlje)
 - [Petlje u Javaskriptu](https://youtu.be/qjdBoVHmIQA)
@@ -91,7 +92,7 @@
 - [Zaustavljanje petlje i preskakanje kruga](https://youtu.be/8o-NvzDtwHU) (`break` i `continue`)
 - Uloga zastavice
 
-### Funkcije
+### Functions
 
 - [Šta su funkcije?](https://youtu.be/MO9WKt7CRI8)
 - Različiti načini pisanja funkcije
@@ -106,7 +107,7 @@
 - Anonimne funkcije
 - Vežba: napravi čiste funkcije za osnovne računske operacije
 
-### Rad sa nizovima
+### Working with arrays
 
 - Jednodimenzionalni i višedimenzionalni nizovi
 - Dodavanje elementa: `push()`
@@ -118,7 +119,7 @@
 - Vežba: pronađi korisnika u nizu
 - Vežba: pronađi najmanji broj
 
-### Objekti
+### Objects
 
 - [Uvod u strukture podataka](/strukture-podataka)
 - [Tri vrste objekata u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
@@ -136,20 +137,23 @@
 - osnovne metode: `JSON.parse()`, `JSON.stringify()`
 - vežba: napravi adresar u JSON fajlu
 
-### Klase i nasleđivanje
+### Classes and inheritance
+
 - [Objektno orjentisana arhitektura](/objektno-orijentisano-programiranje)
 - `constructor`, `super` i `this`
 - Vežba: napravi likove za igru (klasa Junak i naslednici Vilenjak i Ork)
 - Vežba: napravi karton pacijenata (ili bazu filmova) sa pretragom
 
-### Kodni standard
+### Code style
+
 - JS Standard i Airbnb kodni stil
 - Instalacija i podešavanje lintera (ESLint)
 - vežba: refaktorisanje po kodnom standardu
 
-# Front-end programiranje
+# Module II: Front-end programming
 
-### Rad u okruženju browsera
+### Working in a browser environment
+
 - Objektni model dokumenta (DOM)
   - [Struktura stabla](/strukture-podataka#stablo-tree)
   - Razlika HTML-a i DOM-a
@@ -159,7 +163,8 @@
 - [Razlika između frontenda i bekenda?](/razlika-izmedju-frontenda-i-bekenda)
 - Vežba: predstavi strukturu HTML stranice pomoću JS objekta
 
-### Manipulacija DOM-a
+### DOM manipulation
+
 - Selektori elemenata:
   - `document.getElementById()`
   - `document.querySelector()`
@@ -167,13 +172,15 @@
 - [Dodavanje elemenata](https://jsfiddle.net/mudroljub/rhLggx3t/) (`appendChild`, `innerHTML`, `element.insertAdjacentHTML()`)
 - Uklanjanje elemenata (`removeChild` ili `innerHTML`)
 
-### Stilizovanje Javaskriptom
+### Styling with Javascript
+
 - Stilizovanje preko `style` atributa
   - Prevođenje CSS-a u JS
   - Stilizovanje Javaskriptom kao loša praksa
 - Stilizovanje dodavanjem CSS klasa
 
-### Događaji
+### Events
+
 - Uvod u Javaskript događaje
   - događaji miša (`click`, `dblclick`, `mousemove`, `mouseenter`, `mouseleave`, `mousedown`, `mouseup`)
   - događaji tastature (`keydown`, `keyup`)
@@ -193,7 +200,7 @@
 - Vežba: uporedi `this` unutar obične i streličaste povratne funkcije
 - Vežba: spreči podrazumevano ponašanje nekog elementa
 
-### Validacija obrazaca
+### Form validation
 
 - Čitanje vrednosti `input` polja
 - Validacija i slanje formulara
@@ -204,7 +211,7 @@
 - Vežba: proveri dužinu unetog teksta
 - Vežba: spreči podrazumevano slanje, proveri podatke pa pošalji
 
-### Regularni izraz
+### Regular expression
 
 - [Regularni izrazi](/regularni-izraz)
   - Početak i kraj (`^`, `$`)
@@ -217,7 +224,8 @@
 - [JS metode za regularni izraz](/regularni-izraz#js-metode-za-regularni-izraz)
 - Vežba: [izrazi za ime i prezime, adresu i email](https://jsfiddle.net/mudroljub/6b36w613/)
 
-### Rad sa slikama
+### Working with images
+
 - Dodavanje i učitavanje slika
 - Menjanje veličine slike
 - Menjanje izvora slike
@@ -225,13 +233,14 @@
 - Vežba: javi kada su sve slike učitane
 - Vežba: [dinamički napravi foto galeriju](https://jsfiddle.net/mudroljub/d4zwwp70/)
 
-### Rad sa zvukom i videom
+### Working with audio and video
+
 - Učitavanje audio i video fajlova
 - Puštanje fajlova
 - Vežba: Napravi plejer i plejlistu
 - Vežba: Napravi program za pravljenje muzike
 
-### Crtanje i animacije [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-animacije)
+### Drawing and animation
 
 - Crtanje na platnu (`canvas`) i mrdanje DOM elemenata
 - Glavna petlja (`main loop`)
@@ -243,7 +252,8 @@
 - Vežba: Napravi animaciju koja reaguje na korisnički unos
 - Vežba: Pravljenje kružne animacije pomoću trigonometrije
 
-### jQuery biblioteka
+### jQuery library
+
 - Dodavanje biblioteke
 - Osnovne metode: `hide()`, `show()`, `toggle()`, `append()`, `addClass()`, `removeClass()`
 - `jQuery` selektor vs `document.querySelector`
@@ -255,6 +265,7 @@
 - Vežba: napravi mini jQuery
 
 ### AJAX i API
+
 - Asinhroni Javaskript i HTML
   - uvod u AJAX tehniku
   - čist JS i jQuery AJAX poziv
@@ -262,7 +273,7 @@
 - Vežba: učitaj adresar iz JSON fajla
 - Vežba: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
 
-### Node.js bekend servisi [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-nodejs)
+### Node.js web services
 
 - [Šta je server?](/server)
 - [Šta su web servisi?](/web-servisi)
