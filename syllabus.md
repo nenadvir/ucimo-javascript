@@ -77,13 +77,12 @@
 
 ### Loops and iteration
 
-- [Petlje u Javaskriptu](https://youtu.be/qjdBoVHmIQA)
-- Vrste petlji
-  - `while` petlja
-  - `do while` petlja
-  - `for` petlja
-- [Zaustavljanje petlje i preskakanje kruga](https://youtu.be/8o-NvzDtwHU) (`break` i `continue`)
-- Uloga zastavice
+- Loops in Javascript
+  - `while` loop
+  - `do while` loop
+  - `for` loop
+- `break` and `continue`
+- A flag variable
 
 ### Functions
 
@@ -115,7 +114,7 @@
 ### Objects
 
 - [Uvod u strukture podataka](/strukture-podataka)
-- [Tri vrste objekata u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
+- [Tri vrste objekata u Javascriptu](/tri-vrste-objekata-u-javaskriptu)
   - [Objekat kao rečnik](https://youtu.be/ZJ5__rBMkso)
   - [Objekat kao model](https://youtu.be/wEVoMn_sX_U)
   - [Objekat kao stablo](https://youtu.be/ppODhkAAQ3A)
