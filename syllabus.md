@@ -4,7 +4,7 @@
 ### Intro
 
 - What is programming and how to learn it?
-- What is Javascript and what to do with it?
+- What to do with Javascript?
 - Short history of Javascript
 - Programming in browser vs. programming on file system
 
