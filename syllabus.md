@@ -111,15 +111,14 @@
 
 ### Objects
 
-- [Uvod u strukture podataka](/strukture-podataka)
-- [Tri vrste objekata u Javascriptu](/tri-vrste-objekata-u-javaskriptu)
-  - [Objekat kao rečnik](https://youtu.be/ZJ5__rBMkso)
-  - [Objekat kao model](https://youtu.be/wEVoMn_sX_U)
-  - [Objekat kao stablo](https://youtu.be/ppODhkAAQ3A)
-- Osnovne metode: `Object.keys()`, `Object.assign()`, `Object.freeze()`
-- Iteracija objekta: `for in` i `hasOwnProperty`
-- Project: pronađi koliko se koje ime ponavlja u nizu
-- Project: [napravi kasu za prodavnicu](https://www.codecademy.com/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
+- Intro to data structures
+- Three common usages of objects in Javascript
+  - Object as a dictionary
+  - Object as a real-world model
+  - Object as a tree
+- Object iteration (`for in` and `hasOwnProperty`)
+- Project: Find all occurrences of specific name in array
+- Project: [Building a Cash Register](https://www.codecademy.com/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
 ### JSON format
 
