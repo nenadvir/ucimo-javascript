@@ -59,7 +59,7 @@
 - Vežba: izračunaj koliko dana si živ
 - Vežba: postavi model poslovanja
 
-### Text editing
+### Working with text
 
 - Navodnici (`""`) i polunavodnici (`''`)
 - Višelinijske strune (\`\`)
