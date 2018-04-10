@@ -73,11 +73,10 @@
   - `else if`
   - `switch`
 - Project: Create a text adventure
-- Project: Create a program to choose greater from two input numbers
+- Project: Implement logic to check if user is underage
 
 ### Loops and iteration
 
-- [Petlje u jeziku C](/c-petlje)
 - [Petlje u Javaskriptu](https://youtu.be/qjdBoVHmIQA)
 - Vrste petlji
   - `while` petlja
