@@ -10,14 +10,12 @@
 
 ### Instalacija i pokretanje
 
-- [Instalacija i pokretanje programa](https://youtu.be/GxHEdXGu62g)
-  - [Dodavanja Javascripta na stranicu](/dodavanje-javascripta)
-- Instalacija editora ([Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
-  - Instalacija dodataka (Emmet, linter, beautifier)
-- Instalacija [NodeJS](https://nodejs.org/)-a
-- Prvi program Zdravo Svete
-  - Izvršenje `.js` fajla u pregledaču
-  - Izvršenje `.js` fajla preko komandne linije
+- Install NodeJS
+- Install editor of choice ([Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
+  - Install plugins (Emmet, linter, beautifier)
+- Hello World program
+  - Run `.js` file in browser
+  - Run `.js` via command line
 
 ### Promenljive i nepromenljive
 
