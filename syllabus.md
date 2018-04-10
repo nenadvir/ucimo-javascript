@@ -100,15 +100,14 @@
 
 ### Working with arrays
 
-- Jednodimenzionalni i višedimenzionalni nizovi
-- Dodavanje elementa: `push()`
-- Pristupanje elementu: `niz[index]`
-- Sortiranje niza: `sort()` (pažljivo, mutatorska metoda)
-- Iteracija: `for`, `forEach()`, `map()`
-  - izbegavanje bespotrebnog vrtenja
-- Ostale metode: `length`, `indexOf()`, `slice()`, `splice()`, `toString()`
-- Project: pronađi korisnika u nizu
-- Project: pronađi najmanji broj
+- One-dimensional and two-dimensional arrays
+- Adding element to array (`push()` method)
+- Accessing array element (`array[index]`)
+- `sort()` method (caution, mutator method!)
+- Array iteration
+  - `for`, `forEach()`, `map()`
+- Project: Find specific user in array of users
+- Project: Find minimal number in array of numbers
 
 ### Objects
 
