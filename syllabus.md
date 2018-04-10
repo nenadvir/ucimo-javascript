@@ -8,7 +8,7 @@
 - Short history of Javascript
 - Programming in browser vs. programming on file system
 
-### Instalacija i pokretanje
+### First JS program
 
 - Install NodeJS
 - Install editor of choice ([Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
