@@ -55,18 +55,18 @@
   - Promena strune u broj (`Number()`, `parseInt()`)
   - Čitanje binarnih (`parseInt('10100', 2)`) i heksadecimalnih brojeva (`parseInt('ffaadd', 16)`)
 - `prompt()` funkcija za korisnički unos
-- Vežba: izračunaj koliko moraš učiti ovim tempom da bi postao ekspert
-- Vežba: izračunaj koliko dana si živ
-- Vežba: postavi model poslovanja
+- Project: izračunaj koliko moraš učiti ovim tempom da bi postao ekspert
+- Project: izračunaj koliko dana si živ
+- Project: postavi model poslovanja
 
 ### Working with text
 
 - Navodnici (`""`) i polunavodnici (`''`)
 - Višelinijske strune (\`\`)
 - Osnovne metode: `length`, `indexOf()`, `toLowerCase()`, `toUpperCase()`, `trim()`, `substr()`
-- Vežba: promeni veličinu slova
-- Vežba: nađi svoje ime u tekstu
-- Vežba: napiši cenzor funkciju koja menja ružne reči zvezdicama
+- Project: promeni veličinu slova
+- Project: nađi svoje ime u tekstu
+- Project: napiši cenzor funkciju koja menja ružne reči zvezdicama
 
 ### Programming logic
 
@@ -78,8 +78,8 @@
   - ako inače (`if else`)
   - inače ako (`else if`)
   - skretnica (`switch`)
-- Vežba: napravi priču sa više završetaka na osnovu promenljivih
-- Vežba: napravi program za otkrivanje većeg od dva uneta broja
+- Project: napravi priču sa više završetaka na osnovu promenljivih
+- Project: napravi program za otkrivanje većeg od dva uneta broja
 
 ### Loops and iteration
 
@@ -105,7 +105,7 @@
 - Čiste i nečiste funkcije
 - Streličaste funkcije
 - Anonimne funkcije
-- Vežba: napravi čiste funkcije za osnovne računske operacije
+- Project: napravi čiste funkcije za osnovne računske operacije
 
 ### Working with arrays
 
@@ -116,8 +116,8 @@
 - Iteracija: `for`, `forEach()`, `map()`
   - izbegavanje bespotrebnog vrtenja
 - Ostale metode: `length`, `indexOf()`, `slice()`, `splice()`, `toString()`
-- Vežba: pronađi korisnika u nizu
-- Vežba: pronađi najmanji broj
+- Project: pronađi korisnika u nizu
+- Project: pronađi najmanji broj
 
 ### Objects
 
@@ -128,8 +128,8 @@
   - [Objekat kao stablo](https://youtu.be/ppODhkAAQ3A)
 - Osnovne metode: `Object.keys()`, `Object.assign()`, `Object.freeze()`
 - Iteracija objekta: `for in` i `hasOwnProperty`
-- Vežba: pronađi koliko se koje ime ponavlja u nizu
-- Vežba: [napravi kasu za prodavnicu](https://www.codecademy.com/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
+- Project: pronađi koliko se koje ime ponavlja u nizu
+- Project: [napravi kasu za prodavnicu](https://www.codecademy.com/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
 ### JSON format
 
@@ -141,8 +141,8 @@
 
 - [Objektno orjentisana arhitektura](/objektno-orijentisano-programiranje)
 - `constructor`, `super` i `this`
-- Vežba: napravi likove za igru (klasa Junak i naslednici Vilenjak i Ork)
-- Vežba: napravi karton pacijenata (ili bazu filmova) sa pretragom
+- Project: napravi likove za igru (klasa Junak i naslednici Vilenjak i Ork)
+- Project: napravi karton pacijenata (ili bazu filmova) sa pretragom
 
 ### Code style
 
@@ -161,7 +161,7 @@
   - `window` svojstva i metode: `innerHeight`, `innerWidth`, `location`, `setTimeout(), open()`
   - `document` svojstva i metode: `activeElement`, `domain`, `location`, `referrer`
 - [Razlika između frontenda i bekenda?](/razlika-izmedju-frontenda-i-bekenda)
-- Vežba: predstavi strukturu HTML stranice pomoću JS objekta
+- Project: predstavi strukturu HTML stranice pomoću JS objekta
 
 ### DOM manipulation
 
@@ -181,7 +181,7 @@
 
 ### Events
 
-- Uvod u Javaskript događaje
+- Uvod u Javascript događaje
   - događaji miša (`click`, `dblclick`, `mousemove`, `mouseenter`, `mouseleave`, `mousedown`, `mouseup`)
   - događaji tastature (`keydown`, `keyup`)
   - događaji formulara (`focus`, `blur`, `change`, `submit`)
@@ -195,10 +195,10 @@
 - Sprečavanje podrazumevanog ponašanja (`event.preventDefault()`)
   - sprečavanje slanja forme
   - sprečavanje otvaranja linka
-- Vežba: promeni naslov kad je miš iznad
-- Vežba: napravi da [element prati kretanje miša](https://jsfiddle.net/mudroljub/du274n9z/)
-- Vežba: uporedi `this` unutar obične i streličaste povratne funkcije
-- Vežba: spreči podrazumevano ponašanje nekog elementa
+- Project: promeni naslov kad je miš iznad
+- Project: napravi da [element prati kretanje miša](https://jsfiddle.net/mudroljub/du274n9z/)
+- Project: uporedi `this` unutar obične i streličaste povratne funkcije
+- Project: spreči podrazumevano ponašanje nekog elementa
 
 ### Form validation
 
@@ -207,9 +207,9 @@
   - Validacija putem Javaskripta
   - Prirodna validacija pregledača
   - Slanje podataka bekendu
-- Vežba: [email validacija](https://jsfiddle.net/mudroljub/h70xtpco/)
-- Vežba: proveri dužinu unetog teksta
-- Vežba: spreči podrazumevano slanje, proveri podatke pa pošalji
+- Project: [email validacija](https://jsfiddle.net/mudroljub/h70xtpco/)
+- Project: proveri dužinu unetog teksta
+- Project: spreči podrazumevano slanje, proveri podatke pa pošalji
 
 ### Regular expression
 
@@ -222,23 +222,23 @@
   - Alternativa (`|`)
   - Escape (`\`)
 - [JS metode za regularni izraz](/regularni-izraz#js-metode-za-regularni-izraz)
-- Vežba: [izrazi za ime i prezime, adresu i email](https://jsfiddle.net/mudroljub/6b36w613/)
+- Project: [izrazi za ime i prezime, adresu i email](https://jsfiddle.net/mudroljub/6b36w613/)
 
 ### Working with images
 
 - Dodavanje i učitavanje slika
 - Menjanje veličine slike
 - Menjanje izvora slike
-- Vežba: promeni sliku na klik
-- Vežba: javi kada su sve slike učitane
-- Vežba: [dinamički napravi foto galeriju](https://jsfiddle.net/mudroljub/d4zwwp70/)
+- Project: promeni sliku na klik
+- Project: javi kada su sve slike učitane
+- Project: [dinamički napravi foto galeriju](https://jsfiddle.net/mudroljub/d4zwwp70/)
 
 ### Working with audio and video
 
 - Učitavanje audio i video fajlova
 - Puštanje fajlova
-- Vežba: Napravi plejer i plejlistu
-- Vežba: Napravi program za pravljenje muzike
+- Project: Napravi plejer i plejlistu
+- Project: Napravi program za pravljenje muzike
 
 ### Drawing and animation
 
@@ -249,8 +249,8 @@
   - Delta vreme
 - [Kako napraviti kružnu animaciju pomoću trigonometrije?](/trigonometrija-animacija)
 - Interaktivne animacije
-- Vežba: Napravi animaciju koja reaguje na korisnički unos
-- Vežba: Pravljenje kružne animacije pomoću trigonometrije
+- Project: Napravi animaciju koja reaguje na korisnički unos
+- Project: Pravljenje kružne animacije pomoću trigonometrije
 
 ### jQuery library
 
@@ -260,18 +260,18 @@
   - Razlika između JS elementa i jQuery objekta
 - Događaji u jQuery-u
   - `$(document).ready` vs `window.onload`
-- Vežba: sakrij/prikaži deo stranice na klik
-- Vežba: dodaj neki jQuery UI element (meni, harmoniku, kalendar...)
-- Vežba: napravi mini jQuery
+- Project: sakrij/prikaži deo stranice na klik
+- Project: dodaj neki jQuery UI element (meni, harmoniku, kalendar...)
+- Project: napravi mini jQuery
 
 ### AJAX i API
 
-- Asinhroni Javaskript i HTML
+- Asinhroni Javascript i HTML
   - uvod u AJAX tehniku
   - čist JS i jQuery AJAX poziv
 - Programski interfejs aplikacija (API)
-- Vežba: učitaj adresar iz JSON fajla
-- Vežba: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
+- Project: učitaj adresar iz JSON fajla
+- Project: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
 
 ### Node.js web services
 
@@ -280,7 +280,7 @@
 - Žetva podataka (*web scraping*)
 - Čitanje i pisanje fajlova
 - Služenje podataka
-- Vežba: žanji i kombinuj vesti sa raznih izvora
+- Project: žanji i kombinuj vesti sa raznih izvora
 
 ### Završni projekat
 
