@@ -122,9 +122,9 @@
 
 ### JSON format
 
-- [Uvod u JSON](/json-format)
-- osnovne metode: `JSON.parse()`, `JSON.stringify()`
-- vežba: napravi adresar u JSON fajlu
+- Intro to JSON
+- Basic methods: `JSON.parse()`, `JSON.stringify()`
+- Project: Create an adress book in JSON file
 
 ### Classes and inheritance
 
