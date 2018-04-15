@@ -283,7 +283,7 @@
   - `className` attribute
   - Conditional CSS classes
 - Routing
-- Project: Render data from JSON
+- Project: Render data from JSON API
 
 ### Završni projekat
 
