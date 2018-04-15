@@ -266,7 +266,7 @@
 
 ### React
 
-- React ecosystem and unidirectional data flow
+- React tools and ecosystem
 - JSX format
 - Components
   - Class vs. functional component
