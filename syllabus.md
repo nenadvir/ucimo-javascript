@@ -264,14 +264,26 @@
 - Project: učitaj adresar iz JSON fajla
 - Project: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
 
-### Node.js web services
+### React
 
-- [Šta je server?](/server)
-- [Šta su web servisi?](/web-servisi)
-- Žetva podataka (*web scraping*)
-- Čitanje i pisanje fajlova
-- Služenje podataka
-- Project: žanji i kombinuj vesti sa raznih izvora
+- JSX format
+- Components
+  - Class vs. functional component
+  - Component lifecycle
+  - Render method
+- Properties (`props`)
+  - Passing properties
+  - Passing *handler* functions
+- Stanje (`state`)
+  - Initial state
+  - Updating state
+  - Updating parent state
+- Styling
+  - `className` attribute
+  - Conditional CSS classes
+- Routing
+- Unidirectional data flow
+- Project: Render data from JSON
 
 ### Završni projekat
 
