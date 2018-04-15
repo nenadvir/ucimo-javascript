@@ -266,15 +266,16 @@
 
 ### React
 
+- React ecosystem and unidirectional data flow
 - JSX format
 - Components
   - Class vs. functional component
   - Component lifecycle
   - Render method
-- Properties (`props`)
+- `props`
   - Passing properties
   - Passing *handler* functions
-- Stanje (`state`)
+- `state`
   - Initial state
   - Updating state
   - Updating parent state
@@ -282,7 +283,6 @@
   - `className` attribute
   - Conditional CSS classes
 - Routing
-- Unidirectional data flow
 - Project: Render data from JSON
 
 ### Završni projekat
