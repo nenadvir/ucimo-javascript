@@ -6,7 +6,6 @@
 
 - What is programming and how to learn it?
 - What to do with Javascript?
-- Short history of Javascript
 - Programming in browser vs. programming on file system
 
 ### First JS program
@@ -22,14 +21,13 @@
 
 - What is a variable?
 - Variables vs. constants in Javascript
-- Identifiers and naming conventions
-- Assigning values to variables (`=`)
+  - Changing constant objects in Javascript
+- Naming conventions
 - Variable scope (global and local)
-- Changing constant objects in Javascript
 
 ### Data types
 
-- Intro to computer data and binary numbers
+- Intro to data and binary numbers
 - Data types in Javascript
   - Boolean (`true` i `false`)
   - Number
@@ -50,7 +48,6 @@
 - Conversions
   - String to number (`Number()`, `parseInt()`)
   - Translate binary (`parseInt('10100', 2)`) and hexadecimal (`parseInt('ffaadd', 16)`)
-- `prompt()` function for user input
 - Project: How long I have to learn to become an expert
 - Project: Setup your business model
 
@@ -77,7 +74,7 @@
 
 ### Loops and iteration
 
-- Loops in Javascript
+- Basic loops
   - `while` loop
   - `do while` loop
   - `for` loop
@@ -87,23 +84,22 @@
 ### Functions
 
 - What is a function?
-- Different ways of defining functions
-- Input parameters
-  - Default parameters
+- Different ways of defining functions in JS
+- Parameters and default parameters
 - `return` statement
 - Function invocation
   - Assign return value to a variable
 - Pure vs. impure functions
 - Arrow functions
 - Anonymous functions
-- Project: Create pure functions for basic arithmetic
+- Project: Create pure functions for calculate tax
 
 ### Working with arrays
 
 - One-dimensional and two-dimensional arrays
 - Adding element to array (`push()` method)
 - Accessing array element (`array[index]`)
-- `sort()` method (caution, mutator method!)
+- `sort()` mutator method
 - Array iteration
   - `for`, `forEach()`, `map()`
 - Project: Find specific user in array of users
@@ -112,7 +108,7 @@
 ### Objects
 
 - Intro to data structures
-- Three common usages of objects in Javascript
+- Three kind of objects in Javascript
   - Object as a dictionary
   - Object as a real-world model
   - Object as a tree
