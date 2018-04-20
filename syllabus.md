@@ -150,8 +150,8 @@
   - `document.getElementById()`
   - `document.querySelector()`
   - `document.querySelectorAll()`
-- [Add DOM elements](https://jsfiddle.net/mudroljub/rhLggx3t/) (`appendChild`, `innerHTML`, `element.insertAdjacentHTML()`)
-- Remove DOM elements (`removeChild` ili `innerHTML`)
+- [Adding DOM elements](https://jsfiddle.net/mudroljub/rhLggx3t/) (`appendChild`, `innerHTML`, `element.insertAdjacentHTML()`)
+- Removing DOM elements (`removeChild` ili `innerHTML`)
 
 ### Styling with Javascript
 
