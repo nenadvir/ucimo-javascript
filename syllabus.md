@@ -131,33 +131,27 @@
 - Project: create game characters (class Hero and inheritors Elf and Orc)
 - Project: create patient files (or movie database) with search
 
-### Code style
-
-- JS Standard i Airbnb kodni stil
-- Instalacija i podešavanje lintera (ESLint)
-- vežba: refaktorisanje po kodnom standardu
-
 # Module II: Front-end programming
 
 ### Working in a browser environment
 
-- Objektni model dokumenta (DOM)
-  - [Struktura stabla](/strukture-podataka#stablo-tree)
-  - Razlika HTML-a i DOM-a
-- Globalni objekti u pregledaču: `window` i `document`
-  - `window` svojstva i metode: `innerHeight`, `innerWidth`, `location`, `setTimeout(), open()`
-  - `document` svojstva i metode: `activeElement`, `domain`, `location`, `referrer`
-- [Razlika između frontenda i bekenda?](/razlika-izmedju-frontenda-i-bekenda)
-- Project: predstavi strukturu HTML stranice pomoću JS objekta
+- Document Object Model (DOM)
+  - Tree data structure
+  - HTML vs. DOM
+- Browser global objects: `window` and `document`
+  - `window` properties and methods: `innerHeight`, `innerWidth`, `location`, `setTimeout(), open()`
+  - `document` properties and methods: `activeElement`, `domain`, `location`, `referrer`
+- Front-end vs. Back-end programming
+- Project: Model HTML tree with JS object
 
 ### DOM manipulation
 
-- Selektori elemenata:
+- Selectors:
   - `document.getElementById()`
   - `document.querySelector()`
   - `document.querySelectorAll()`
-- [Dodavanje elemenata](https://jsfiddle.net/mudroljub/rhLggx3t/) (`appendChild`, `innerHTML`, `element.insertAdjacentHTML()`)
-- Uklanjanje elemenata (`removeChild` ili `innerHTML`)
+- [Add DOM elements](https://jsfiddle.net/mudroljub/rhLggx3t/) (`appendChild`, `innerHTML`, `element.insertAdjacentHTML()`)
+- Remove DOM elements (`removeChild` ili `innerHTML`)
 
 ### Styling with Javascript
 
@@ -285,4 +279,5 @@
 
 - Napravi jednostraničnu aplikaciju sa pretragom koja uzima podatke iz javnog API-ja
 - Refaktorisanje (optimizacija i povećanje čitkosti koda)
-- Objavljivanje na GitHub Pages ili Heroku
+- Apply JS Standard or Airbnb Code Style
+- Pusblish your app on GitHub Pages
