@@ -128,8 +128,8 @@
   - Properties and methods
   - `constructor`, `super` and `this`
 - Instantiate `new` objects
-- Project: napravi likove za igru (klasa Junak i naslednici Vilenjak i Ork)
-- Project: napravi karton pacijenata (ili bazu filmova) sa pretragom
+- Project: create game characters (class Hero and inheritors Elf and Orc)
+- Project: create patient files (or movie database) with search
 
 ### Code style
 
