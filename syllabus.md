@@ -155,104 +155,87 @@
 
 ### Styling with Javascript
 
-- Stilizovanje preko `style` atributa
-  - Prevođenje CSS-a u JS
-  - Stilizovanje Javaskriptom kao loša praksa
-- Stilizovanje dodavanjem CSS klasa
+- Styling with `style` attribute
+  - Mapping CSS to JS
+  - Styling with Javascript as a bad practice
+- Styling with CSS classes
 
 ### Events
 
-- Uvod u Javascript događaje
-  - događaji miša (`click`, `dblclick`, `mousemove`, `mouseenter`, `mouseleave`, `mousedown`, `mouseup`)
-  - događaji tastature (`keydown`, `keyup`)
-  - događaji formulara (`focus`, `blur`, `change`, `submit`)
-  - globalni događaji (`DOMContentLoaded`, `load`, `resize`)
-  - Razlika između `DOMContentLoaded` i `window.onload`
-- Dodavanje slušača događa
-  - dodavanje preko atributa i preko metoda (`addEventListener`)
-  - povratna funkcija i prosleđivanje argumenata
-  - razlika obične i streličaste povratne funkcije
-  - `event` objekat i njegova svojstva
-- Sprečavanje podrazumevanog ponašanja (`event.preventDefault()`)
-  - sprečavanje slanja forme
-  - sprečavanje otvaranja linka
-- Project: promeni naslov kad je miš iznad
-- Project: napravi da [element prati kretanje miša](https://jsfiddle.net/mudroljub/du274n9z/)
-- Project: uporedi `this` unutar obične i streličaste povratne funkcije
-- Project: spreči podrazumevano ponašanje nekog elementa
+- Intro to Javascript events
+  - mouse events (`click`, `dblclick`, `mousemove`, `mouseenter`, `mouseleave`, `mousedown`, `mouseup`)
+  - keyboard events (`keydown`, `keyup`)
+  - form events (`focus`, `blur`, `change`, `submit`)
+  - global events (`DOMContentLoaded`, `load`, `resize`)
+  - `DOMContentLoaded` vs. `window.onload`
+- Adding event listeners
+  - via attributes (`onclick`) vs. via method (`addEventListener`)
+  - callback functions and passing arguments
+  - `this` in arrow functions
+  - `event` object and its properties
+- Preventing default behavior (`event.preventDefault()`)
+  - Prevent form submit
+  - Prevend open URL
+- Project: change text on hover
+- Project: [element folllows mouse move](https://jsfiddle.net/mudroljub/du274n9z/)
+- Project: prevent default behavior of some element
 
 ### Form validation
 
-- Čitanje vrednosti `input` polja
-- Validacija i slanje formulara
-  - Validacija putem Javaskripta
-  - Prirodna validacija pregledača
-  - Slanje podataka bekendu
-- Project: [email validacija](https://jsfiddle.net/mudroljub/h70xtpco/)
-- Project: proveri dužinu unetog teksta
-- Project: spreči podrazumevano slanje, proveri podatke pa pošalji
-
-### Regular expression
-
-- [Regularni izrazi](/regularni-izraz)
-  - Početak i kraj (`^`, `$`)
-  - Broj pojavljivanja (`?`, `+`, `*`, `{}`)
-  - Posebni karakteri (`\d`, `\D`, `\w`, `\W`, `\s`, `\S`)
-  - Grupisanje (`[]`) i negacija (`^`)
-  - Podobrasci (`()`)
-  - Alternativa (`|`)
-  - Escape (`\`)
-- [JS metode za regularni izraz](/regularni-izraz#js-metode-za-regularni-izraz)
-- Project: [izrazi za ime i prezime, adresu i email](https://jsfiddle.net/mudroljub/6b36w613/)
+- Read `input` field value
+- Form submit and validation
+  - Validation with Javascript
+  - Native browser validation
+  - Regular expression
+  - Send data to backend
+- Project: [email validation](https://jsfiddle.net/mudroljub/h70xtpco/)
+- Project: [regex for name, adress and email](https://jsfiddle.net/mudroljub/6b36w613/)
+- Project: prevent default form submit, validate, then send
 
 ### Working with images
 
-- Dodavanje i učitavanje slika
-- Menjanje veličine slike
-- Menjanje izvora slike
-- Project: promeni sliku na klik
-- Project: javi kada su sve slike učitane
-- Project: [dinamički napravi foto galeriju](https://jsfiddle.net/mudroljub/d4zwwp70/)
+- Add and load images
+- Change image size
+- Change image source
+- Project: change image on click
+- Project: detect when all images are loaded
+- Project: [create a dynamic photo gallery](https://jsfiddle.net/mudroljub/d4zwwp70/)
 
 ### Working with audio and video
 
-- Učitavanje audio i video fajlova
-- Puštanje fajlova
-- Project: Napravi plejer i plejlistu
-- Project: Napravi program za pravljenje muzike
+- Loading audio and video files
+- Playing multimedia files
+- Project: Create a player with playlist
 
 ### Drawing and animation
 
-- Crtanje na platnu (`canvas`) i mrdanje DOM elemenata
-- Glavna petlja (`main loop`)
-- Animiranje sa `setInterval` i `requestAnimationFrame`
-  - FPS (broj kadrova po sekundi)
-  - Delta vreme
-- [Kako napraviti kružnu animaciju pomoću trigonometrije?](/trigonometrija-animacija)
-- Interaktivne animacije
-- Project: Napravi animaciju koja reaguje na korisnički unos
-- Project: Pravljenje kružne animacije pomoću trigonometrije
+- Drawing on `canvas`
+- Main loop for animations
+- Animate with `setInterval` and `requestAnimationFrame`
+  - FPS (frames per second)
+  - Delta time
+- Interactive animations
+- Project: Create animation triggered by user input
 
 ### jQuery library
 
-- Dodavanje biblioteke
-- Osnovne metode: `hide()`, `show()`, `toggle()`, `append()`, `addClass()`, `removeClass()`
-- `jQuery` selektor vs `document.querySelector`
-  - Razlika između JS elementa i jQuery objekta
-- Događaji u jQuery-u
+- Adding a library
+- Basic methods: `hide()`, `show()`, `toggle()`, `append()`, `addClass()`, `removeClass()`
+- `jQuery` selector vs `document.querySelector`
+  - JS element vs. jQuery object
+- jQuery events
   - `$(document).ready` vs `window.onload`
-- Project: sakrij/prikaži deo stranice na klik
-- Project: dodaj neki jQuery UI element (meni, harmoniku, kalendar...)
-- Project: napravi mini jQuery
+- Project: show/hide section on click
+- Project: add some jQuery UI element (menu, accordion, calendar...)
+- Project: create a mini jQuery
 
 ### AJAX i API
 
-- Asinhroni Javascript i HTML
-  - uvod u AJAX tehniku
-  - čist JS i jQuery AJAX poziv
-- Programski interfejs aplikacija (API)
-- Project: učitaj adresar iz JSON fajla
-- Project: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
+- Asynchronous Javascript and HTML
+  - AJAX methodology explained
+  - `XMLHttpRequest` and `fetch`
+- Application programming interface (API)
+- Project: read some [public API](https://github.com/toddmotto/public-apis) and render HTML
 
 ### React
 
@@ -275,9 +258,9 @@
 - Routing
 - Project: Render data from JSON API
 
-### Završni projekat
+### Final project
 
-- Napravi jednostraničnu aplikaciju sa pretragom koja uzima podatke iz javnog API-ja
-- Refaktorisanje (optimizacija i povećanje čitkosti koda)
-- Apply JS Standard or Airbnb Code Style
+- Create a single page application with search functionality via public API
+- Code refactoring (optimisation and readability)
+- Apply some code standard (JS Standard or Airbnb Code Style)
 - Pusblish your app on GitHub Pages
