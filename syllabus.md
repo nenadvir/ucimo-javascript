@@ -8,7 +8,7 @@
 - What to do with Javascript?
 - Programming in browser vs. programming on file system
 
-### First JS program
+### Hello World program
 
 - Install NodeJS
 - Install editor of choice ([Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
@@ -50,14 +50,6 @@
   - Translate binary (`parseInt('10100', 2)`) and hexadecimal (`parseInt('ffaadd', 16)`)
 - Project: How long I have to learn to become an expert
 - Project: Setup your business model
-
-### Working with text
-
-- Double quotes vs single quotes
-- Basic string methods: `length`, `indexOf()`, `toLowerCase()`, `toUpperCase()`, `trim()`, `substr()`
-- Multiline strings
-- Project: Find specific word in a text and change case
-- Project: Write word-censoring function which replace all profanities with ***
 
 ### Programming logic
 
