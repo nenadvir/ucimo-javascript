@@ -16,6 +16,7 @@
 - Hello World program
   - Run `.js` file in browser
   - Run `.js` file via command line
+- Push files to GitHub
 
 ### Variables and constants
 
@@ -249,6 +250,15 @@
   - Conditional CSS classes
 - Routing
 - Project: Render data from JSON API
+
+### Node.js and NPM
+
+- NPM ecosystem
+  - Linter
+  - Live server
+  - localtunnel
+- Global and local `npm install`
+- Understand a `package.json` file
 
 ### Final project
 
