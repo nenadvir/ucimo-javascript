@@ -7,7 +7,7 @@ console.log(promenljivaOdluka)
 
 // nepromenljive se ne mogu ponovo dodeljivati
 
-const cvrstaOdluka = "Danas ću naučiti nešto novo!"
-cvrstaOdluka = "Ipak neću danas ništa učiti"  // ovde puca program
+const nepromenljivaOdluka = "Danas ću naučiti nešto novo!"
+nepromenljivaOdluka = "Ipak neću danas ništa učiti"  // ovde puca program
 
-console.log(cvrstaOdluka)
+console.log(nepromenljivaOdluka)
